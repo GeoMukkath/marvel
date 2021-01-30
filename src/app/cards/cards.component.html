@@ -1,0 +1,16 @@
+<div class="container" style="padding-top: 55%;">
+    <div class="row">
+        <div class="col-md-12 pt-5">
+            <h3>Quae quo sunt excelsiores <br>Dant clariora </h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div *ngFor="let card of cards" class=" col-md-3 mb-2">
+            <div class="card">
+                <img src="{{ card.src }}" class="card-img-top">
+                <p class="position-absolute bottom-align-text">Quae excelsiores <br>Dant clariora </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+.contact-btn{
+    background-color: #EF7061;
+    color: white;
+    width: 204px;
+    height: 61px;
+    font-size: 16px;
+    border-color: #EF7061;
+}
+
+.contact-btn :hover, :focus {
+    background-color: #e04938;
+    color: white;
+}
+
+.stories-title{
+    top: 12%;
+    left: 13%;
+    font-size: 45px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.reviews{
+    top: 30%;
+}
+
+.review{
+    color: white;
+    margin-left: 60px;
+}
+
+hr{
+    background-color: #455158;    ;
+    font-weight: lighter;
+}
+
+h1,h6{
+    color: white;
+}
+
+.custom-padding-top {
+    padding-top:27%;
+    padding-left: 5%;
+}

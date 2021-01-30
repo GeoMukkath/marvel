@@ -1,0 +1,109 @@
+img{
+    width: 100%;
+    height: 700px;
+}
+h3{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+h6{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: white;
+}
+#carouselExampleControls{
+    position: absolute;
+    width: 100%;
+}
+
+.carousel-item > img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 380px) {
+    .carousel-item > img {
+        width: 100%;
+        height: 70% !important;
+    }
+  }
+
+  .search-bar{
+      padding: 10px;
+      bottom: 0px;
+      left: 10%;
+      width: 50%;
+      border-color: lightgrey;
+  }
+
+  .search-bar:active{
+      border-color: lightgrey;
+  }
+
+.search-glass{
+    width: 10px;
+    height: 10px;
+    bottom: 0px;
+    right: 10%;
+}
+
+.arrows{
+    width: 20%;
+    padding: 23px;
+    height: 7%;
+    background-color: #83BCC5;
+    right: 20%;
+    bottom: 0px ;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.contact-btn{
+    background-color: #EF7061;
+    color: white;
+    width: 204px;
+    height: 61px;
+    font-size: 16px;
+    border-color: #EF7061;
+}
+
+/* .contact-btn :hover, :focus {
+    background-color: #e04938;
+    color: white;
+} */
+
+.banner-text {
+    top: 30%;
+    left: 10%;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    top: 5%;
+    left: 5%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 19.01px;
+}
+
+.menu{
+    height: 20px;
+    width: 50px;
+    color: white;
+    top: 2%;
+    right: 15px;
+    cursor: pointer;
+}
+ 
+hr{
+    font-size: 5px;
+    background-color: white;
+}

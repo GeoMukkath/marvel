@@ -1,0 +1,16 @@
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-6 pl-5">
+            <h2>Lorem Ipsum<br>Dolor <br>Sit Amet</h2>
+            <h6>At iam decimum annum in spelunca iacet. Cur<br>tantas regiones barbarorum pedibus obiit, tot<br> maria transmisit.</h6>
+            <button class="col-sm-6">LEARN MORE</button>
+        </div>
+        <div class="col-md-6">
+            <div class="masonry">
+                <div class="item" *ngFor = "let image of imageList">
+                  <img src="{{ image.src }}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 mt-5"
+            style="background-image: url('../../assets/component_3_images/image1.png'); background-repeat: no-repeat; background-size: cover;">
+            <div class="row">
+                <div class="col-md-8 custom-padding-top ">
+                    <h1>Lorem Ipsum <br> Dolor Sit Amet</h1>
+                    <h6>At iam decimum annum in spelunca iacet. Cur tantas regiones<br> barbarorum pedibus obiit, tot
+                        maria
+                        transmisit.</h6>
+                    <button class="btn btn-primary contact-btn" >CONTACT</button>
+                </div>
+                <div class="col-md-4"
+                    style="background-image: url('../../assets/component_3_images/image2.png'); background-repeat: no-repeat; background-size: cover;">
+                    <!-- <img src="../../assets/component_3_images/image2.png"> -->
+                    <h2 class="stories-title">Featured <br> Stories</h2>
+                    <div class="reviews" *ngFor="let r of reviews">
+                        <div class="row">
+                            <div class="col-xs-5 pl-1">
+                                <img class="" src="{{ r.src }}">
+                            </div>
+                            <div class="col-xs-7">
+                                <p style="color: white;" class="pl-3">
+                                    {{ r.review }}
+                                    <br>
+                                    {{ r.date }}
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

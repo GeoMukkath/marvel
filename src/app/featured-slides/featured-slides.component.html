@@ -1,0 +1,8 @@
+<h2 class="text-center">Featured Stories</h2>
+<h5 class= "text-center">At iam decimum annum in spelunca iacet. Cur tantas regiones <br>barbarorum pedibus obiit, tot maria transmisit.</h5>
+<carousel cellWidth="100%" cellsToShow="3" autoplay="true" autoplayInterval="2000" arrows="false" loop="false" height="400" arrowsOutside="false" >
+    <div *ngFor="let image of images" class="carousel-cell">
+        <img src="{{ image.src }}">
+        <h4 class="position-absolute bottom-align-text ">At iam decimum <br>annum in spelunca </h4>
+    </div>
+</carousel>

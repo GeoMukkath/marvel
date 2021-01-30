@@ -1,0 +1,11 @@
+<div class="container pt-5">
+  <h2 class="text-center">Inspirations</h2>
+  <h6 class="text-center">At iam decimum annum in spelunca iacet. Cur tantas regiones <br>barbarorum pedibus obiit, tot maria transmisit.</h6>
+  <div class="masonry">
+    <div class="item position-relative" *ngFor = "let mi of masonryItems">
+      <img src="{{ mi.src }}">
+      <div class="position-absolute onHover pl-3 pt-5">At iam decimum annum in spelunca <br>iacet. Cur tantas regiones <br>barbarorum</div>
+      <h5 class="position-absolute onHover pl-3 pb-3">Regiones barbarorum</h5>
+    </div>
+  </div>
+</div>

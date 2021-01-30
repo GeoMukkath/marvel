@@ -1,0 +1,69 @@
+.ns-form{
+    right: 10%;
+    bottom:-45px;
+}
+
+input{
+    font-size: 25px;
+    border-width: 0px 0px 1px 0px;
+    border-color: none none #EBEBEB none;
+}
+input::placeholder{
+    font-family: Poppins;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.sign-up{
+    height: 60px;
+    background-color: grey;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.ns-title{
+    bottom: 45%;
+    left: 10%;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.ns-caption{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    bottom: 30%;
+    left: 10%;
+    color: white;
+}
+
+.card {
+    border: unset;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.img-fluid{
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 380px) {
+    .ns-form{
+        right: unset;
+        left: 33px;
+        bottom: -50%;
+    }
+
+    .col-12 {
+        margin-bottom: 200px;
+    }
+    .img-fluid{
+        height: 400px;
+    }
+  }

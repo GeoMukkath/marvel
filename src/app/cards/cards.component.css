@@ -1,0 +1,33 @@
+h3{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+card{
+    height: 413px;
+    width: 276px;
+    border-radius: 4px;
+}
+
+.card:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #83BCC5;
+}
+
+
+.row {
+    position: relative;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+

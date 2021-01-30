@@ -1,0 +1,41 @@
+img{
+    width: 400px;
+}
+
+h2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+h5{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #889399;
+}
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 35px;
+    left: 135px;
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+  }
+
+  .play-button{
+      height: 50px;
+      width: 50px;
+      background-color: #EF7061;
+      border-radius: 50%;
+      z-index: 1;
+  }
+
+  .pb{
+      height: 17px !important;
+  }
+
+  .ml-6{
+      margin-left: 120px;
+  }
